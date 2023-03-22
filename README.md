@@ -1,2 +1,3 @@
-# Prompt_Engineering_for_ChatGPT
-Question command for efficient output of answers from ChatGPT
+# はじめに
+。ChatGPTを用いてより的確な回答を得たい。そのため、回答出力までのフローを検討し改善を続けていきます
+
