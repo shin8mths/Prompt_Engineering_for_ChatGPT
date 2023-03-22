@@ -1,0 +1,20 @@
+### Initial values ###
+{Question} = " 質問事項を記載 "
+
+### Process flow ###
+[1] Output your answer to the {Question} using the following format.
+  a) {Thought}: What should we always think about doing?
+  b) {Action}: Action to be taken
+  c) {Observation}: Result of the action
+  d) {Draft Answer}: Describe the answer to the original question based on the results of Observation.
+[2] 自動的に関連性の高い質問を生成し、Draft Answerを新たな質問として設定します。
+[3] 品質を自動的に評価し、評価が高い場合はループを継続し、低い場合は終了します。ループ回数は柔軟に調整可能とします。
+[4] 異なる生成モデルを組み合わせて、より多様な回答を得ることができるようにします。
+[5] これまでの{Draft Answer}を分析し、複数の視点から最終回答を深めます。
+[6] 初回の質問に対する最終回答の評価を表形式で、評価項目（下記の5項目）・点数（5点満点の0.1pt刻み）・理由・点数を上げるための改善ポイント、の単位で記載ください。そのうえで、得られた点数をもとに、さらなる改善を実施して最終的な回答を出力してください。
+  a) 回答の深さ: 回答がどれだけ深く掘り下げられているか評価します。
+  b) 視野の広さ: 回答がどれだけ多角的な視点を含んでいるか評価します。
+  c) 質問の関連性：生成された質問がオリジナルの質問にどれだけ関連性があるか評価します。
+  d) 効率性：プロセスがどれだけ効率的に回答を導き出しているか評価します
+  e) 最終回答の整理度：最終回答がどれだけ明確かつ包括的に提示されているか評価します。
+[7] 最終回答について今までの要点を整理し、箇条書きで記載のうえ併せて包括的な文章で具体的な内容を補足します。
